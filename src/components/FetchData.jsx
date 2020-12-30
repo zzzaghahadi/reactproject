@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import Render from "./Render";
+import Axios from "axios";
 
 export default class FetchData extends Component {
   state = {
@@ -23,10 +24,6 @@ export default class FetchData extends Component {
     });
   }
   render() {
-    return(
-      <div>
-        
-      </div>
-    );
+    return <Render data={this.state.data} />;
   }
 }
