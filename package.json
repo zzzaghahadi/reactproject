@@ -9,8 +9,10 @@
     "axios": "^0.21.1",
     "currency": "^4.1.0",
     "currncy": "^1.0.1",
+    "i": "^0.3.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-notifications": "^1.7.2",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
