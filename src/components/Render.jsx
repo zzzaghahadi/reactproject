@@ -29,7 +29,8 @@ export default class Render extends Component {
   render() {
     return (
       <div>
-        {this.props.data.map((data) => {
+      
+  {this.props.data.map((data) => {
           return (
             <div key={data.id}>
               <Card
