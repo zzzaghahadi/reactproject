@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.c {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.le h3 {
+  color: #ef4b4f;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ri h3 {
+  color: #36b564;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ce h2 {
+  color: #00afef;
+  margin: 0px;
+  padding: 0px;
+}
