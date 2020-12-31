@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Card from "./card";
+import Card from "./Card";
 
 export default class Render extends Component {
   state = {
-    buy: [],
-    sell: [],
+    buycurrency: [],
+    sellcurrency: [],
   };
   componentDidMount() {
     let fetchBuy = [];
@@ -22,8 +22,8 @@ export default class Render extends Component {
       });
     }
     this.setState({
-      buy: fetchBuy,
-      sell: fetchSell,
+      buycurrency: fetchBuy,
+      sellcurrency: fetchSell,
     });
   }
   render() {
@@ -34,8 +34,8 @@ export default class Render extends Component {
           return (
             <div key={data.id}>
               <Card
-                sell={data.p}
-                buy={data.l}
+                sellcurrency={data.p}
+                buycurrency={data.l}
                 currency={String(data.slug).substr(9).toUpperCase()}
               />
             </div>

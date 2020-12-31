@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Card from "./components/card";
-import FetchData from "./components/FetchData";
-import Axios from "axios";
+import Card from "./component/Card";
+import Fetch from "./component/FetchData";
 
 export default class App extends Component {
   constructor(props) {
@@ -11,7 +10,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <FetchData />
+        <Card/>
+        <Fetch />
       </div>
     );
   }

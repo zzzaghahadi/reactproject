@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 
-export default class card extends Component {
+export default class Card extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div className="card">
-        <div className="left">
+      <div ClassName="c">
+        <div cClassName="le">
           <h3>{this.props.sell}</h3>
         </div>
-        <div className="center">
+        <div ClassName="ce">
           <h2>{this.props.currency}</h2>
         </div>
-        <div className="right">
+        <div ClassName="ri">
           <h3>{this.props.buy}</h3>
         </div>
       </div>
